@@ -1,8 +1,13 @@
+* {
+	box-sizing: border-box;
+  }
+
 body {
 	border: solid;
     font-family: sans-serif;
 	border-color: goldenrod;
 	padding:  0 15% 0 15%;;
+	text-align: left;
 	
 }
 
@@ -11,18 +16,58 @@ p {
 	font-weight: normal;
 	font-style: normal;
     font-size:200%;
-    text-align: center;
+   
 }
 
 
 h1 {
 	text-align:center;
 	color:darkgreen;
-	font-size:100%; 
+	font-size:200%; 
 	
 }
 .centerimg {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+.col-sm-1{
+	width: 75%;
+	float: right;
+	padding: 15px;
+
+}
+.col-sm-2{
+	width: 50%;
+	float: left;
+	padding: 15px;
+
+}
+.col-sm-3{
+	width: 100%;
+	float: left;
+}
+.col-sm-4{
+	width: 100%;
+	float: left;
+}
+.col-sm-5{
+	width: 75%;
+	float: right;
+	padding: 15px;
+
+}
+.col-sm-6{
+	width: 50%;
+	float: left;
+	padding: 15px;
+
+}
+.col-sm-7{
+	width: 100%;
+	float: left;
+}
+.col-sm-8{
+	width: 75%;
+	float: left;
 }
